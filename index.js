@@ -1,19 +1,20 @@
 module.exports = function(sails) {
-    
-    var setup = require('./lib/yeelight.setup.js');
-    var init = require('./lib/yeelight.init.js');
-    var exec = require('./lib/yeelight.exec.js');
-    var send = require('./lib/yeelight.send.js');
-    
-    gladys.on('ready', function() {
-        init();
-    });
-    
-    return {
-        setup,
-        init,
-        exec,
-        send
-    };
-    
+	var install = require('./lib/install.js');
+	var setup = require('./lib/setup.js');
+	var init = require('./lib/init.js');
+	var exec = require('./lib/exec.js');
+//	var send = require('./lib/send.js');
+
+	gladys.on('ready', function() {
+		init();
+	});
+
+	return {
+		install : install,
+		setup : setup,
+		init : init,
+		exec : exec,
+//		send : send
+	};
+
 };
