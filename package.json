@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/NicolasD-62/gladys-yeelight#readme",
   "dependencies": {
-    "yeelight-wifi": "^2.3.0"
+    "yeelight-wifi": "github:instalator/yeelight-wifi"
   }
 }
