@@ -1,14 +1,27 @@
 {
-  "name": "gladys-yeelight-wifi",
-  "version": "0.1.0",
-  "description": "Gladys module to control your Yeelight bulbs over WiFi.",
+  "name": "gladys-yeelight",
+  "version": "0.2.0",
+  "description": "Gladys module to control Yeelight lamps",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Simon Richert",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasD-62/gladys-yeelight.git"
+  },
+  "keywords": [
+    "gladys",
+    "yeelight",
+    "xiaomi"
+  ],
+  "author": "Nicolas Dubois",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NicolasD-62/gladys-yeelight/issues"
+  },
+  "homepage": "https://github.com/NicolasD-62/gladys-yeelight#readme",
   "dependencies": {
-      "http-headers": "~3.0.1"
+    "yeelight-wifi": "github:instalator/yeelight-wifi"
   }
 }
