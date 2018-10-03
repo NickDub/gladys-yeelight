@@ -1,6 +1,6 @@
 ![gladys version](https://badgen.net/badge/Gladys/%3E=%203.9/purple)
-![license](https://badgen.net/github/license/NicolasD-62/gladys-yeelight)
-[![dependencies Status](https://badgen.net/david/dep/NicolasD-62/gladys-yeelight)](https://david-dm.org/NicolasD-62/gladys-yeelight)
+![license](https://badgen.net/github/license/NicolasD-62/gladys-yeelight/test)
+[![dependencies Status](https://badgen.net/david/dep/NicolasD-62/gladys-yeelight/test)](https://david-dm.org/NicolasD-62/gladys-yeelight/test)
 
 # gladys-yeelight
 Gladys module to control your Yeelight wifi bulbs.
