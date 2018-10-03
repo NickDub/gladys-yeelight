@@ -5,6 +5,9 @@
 # gladys-yeelight
 Gladys module to control your Yeelight wifi bulbs.
 
+yeelight2 - https://github.com/song940/node-yeelight
+yeelight.js - https://github.com//kbariotis/yeelight.js ???
+
 ## Prerequisites
 
 * Gladys version >= 3.9 
