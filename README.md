@@ -38,9 +38,9 @@ There's one exception though: the 'set_rgb' function requires an array [R, G, B]
 
 Some examples: 
 ```javascript
-gladys.modules.yeelight.send({identifier: '0x0000000000000000', method: 'toggle'});
-gladys.modules.yeelight.send({identifier: '0x0000000000000000', method: 'set_rgb', params: [[32, 0, 255], 'smooth', 1000]});
+gladys.modules.yeelight.send({identifier: '255.255.255.255', method: 'toggle'});
+gladys.modules.yeelight.send({identifier: '255.255.255.255', method: 'set_rgb', params: [[32, 0, 255], 'smooth', 1000]});
 
-gladys.modules.yeelight.send({identifier: '0x0000000000000000', method: 'set_power', params: ['on']});
-gladys.modules.yeelight.send({identifier: '0x0000000000000000', method: 'set_hsv', params: ['', 47]}); // Keep the current hue and set saturation to 47
+gladys.modules.yeelight.send({identifier: '255.255.255.255', method: 'set_power', params: ['on']});
+gladys.modules.yeelight.send({identifier: '255.255.255.255', method: 'set_hsv', params: ['', 47]}); // Keep the current hue and set saturation to 47
 ```
