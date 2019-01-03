@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/NicolasD-62/gladys-yeelight#readme",
   "dependencies": {
-    "yeelight-awesome": "^1.0.11"
+    "yeelight-awesome": "1.0.12"
   }
 }
